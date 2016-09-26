@@ -1,6 +1,6 @@
 clear
 
-cd "/Users/arhanuguray/Desktop/Northeastern University/Fall 2015/Econometrics/Research Project/STATA"
+cd "AlpArhanUguray/Research Project/STATA"
 
 log using researchproject.log, replace
 
