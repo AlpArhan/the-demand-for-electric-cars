@@ -1,0 +1,196 @@
+----------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/arhanuguray/Desktop/Northeastern University/Fall 2015/Econometrics/R
+> esearch Project/STATA/TheDemandForElectricCars.log
+  log type:  text
+ opened on:  18 Nov 2015, 00:44:02
+
+. 
+. * Import the data from excel and save as a dta file, re-label the variables
+. 
+. import excel using "Data For Econometrics Research Paper.xlsx", sheet("STATA") clear f
+> irstrow
+
+. 
+. save TheDemandForElectricCars.dta, replace
+file TheDemandForElectricCars.dta saved
+
+. 
+. label var year "The Base Year 2014"
+
+. label var states "States"
+
+. label var ecarsales "Average Electric Car Sales"
+
+. label var ecarprices "Average Electric Car Prices"
+
+. label var numstations "The Number of Stations"
+
+. label var medianincome "Median Income(2014 Dollars)"
+
+. label var taxexempt "Tax Exemption of the States( 1 if Exempt, otherwise 0)"
+
+. label var price_electricity "Price of Electricity Converted to Per Gasoline Gallon Equ
+> ivalent"
+
+. label var price_gasoline "Price of Gasoline per Gallon"
+
+. 
+. 
+. 
+. save TheDemandForElectricCars.dta, replace
+file TheDemandForElectricCars.dta saved
+
+. 
+. * Summary Statistics
+. 
+. use TheDemandForElectricCars.dta
+
+. /* Use "tabstat" to obtain descriptive stats that
+>    are more detailed than just "sum".
+>    Note how you can choose which statistic to show
+>    by specifying them within the "stats()" option.
+>    It is highly recommended that you use the option
+>    "column(statistics)" for better displaying format.  */
+. 
+.    tabstat *, stats(mean sd sk kurt p5 p25 p50 p75 p95) ///
+>               column(statistics)
+string variables not allowed in varlist;
+states is a string variable
+r(109);
+
+end of do-file
+
+r(109);
+
+. do "/Users/arhanuguray/Desktop/Northeastern University/Fall 2015/Econometrics/Research
+>  Project/STATA/ResearchPaperEconometrics.do"
+
+. clear
+
+. 
+. cd "/Users/arhanuguray/Desktop/Northeastern University/Fall 2015/Econometrics/Research
+>  Project/STATA"
+/Users/arhanuguray/Desktop/Northeastern University/Fall 2015/Econometrics/Research Proje
+> ct/STATA
+
+. 
+. log using TheDemandForElectricCars.log, replace
+log file already open
+r(604);
+
+end of do-file
+
+r(604);
+
+. do "/var/folders/93/2k2_v3rs7bnf6qptk36yxlcc0000gp/T//SD00687.000000"
+
+. clear
+
+. 
+. cd "/Users/arhanuguray/Desktop/Northeastern University/Fall 2015/Econometrics/Research
+>  Project/STATA"
+/Users/arhanuguray/Desktop/Northeastern University/Fall 2015/Econometrics/Research Proje
+> ct/STATA
+
+. 
+. 
+. 
+. * Import the data from excel and save as a dta file, re-label the variables
+. 
+. import excel using "Data For Econometrics Research Paper.xlsx", sheet("STATA") clear f
+> irstrow
+
+. 
+. save TheDemandForElectricCars.dta, replace
+file TheDemandForElectricCars.dta saved
+
+. 
+. label var year "The Base Year 2014"
+
+. label var us_states "States"
+variable us_states not found
+r(111);
+
+end of do-file
+
+r(111);
+
+. do "/var/folders/93/2k2_v3rs7bnf6qptk36yxlcc0000gp/T//SD00687.000000"
+
+. clear
+
+. 
+. cd "/Users/arhanuguray/Desktop/Northeastern University/Fall 2015/Econometrics/Research
+>  Project/STATA"
+/Users/arhanuguray/Desktop/Northeastern University/Fall 2015/Econometrics/Research Proje
+> ct/STATA
+
+. 
+. 
+. 
+. * Import the data from excel and save as a dta file, re-label the variables
+. 
+. import excel using "Data For Econometrics Research Paper.xlsx", sheet("STATA") clear f
+> irstrow
+
+. 
+. save TheDemandForElectricCars.dta, replace
+file TheDemandForElectricCars.dta saved
+
+. 
+. label var year "The Base Year 2014"
+
+. label var us_states "States"
+
+. label var ecarsales "Average Electric Car Sales"
+
+. label var ecarprices "Average Electric Car Prices"
+
+. label var numstations "The Number of Stations"
+
+. label var medianincome "Median Income(2014 Dollars)"
+
+. label var taxexempt "Tax Exemption of the States( 1 if Exempt, otherwise 0)"
+
+. label var price_electricity "Price of Electricity Converted to Per Gasoline Gallon Equ
+> ivalent"
+
+. label var price_gasoline "Price of Gasoline per Gallon"
+
+. 
+. 
+. 
+. save TheDemandForElectricCars.dta, replace
+file TheDemandForElectricCars.dta saved
+
+. 
+. * Summary Statistics
+. 
+. use TheDemandForElectricCars.dta
+
+. /* Use "tabstat" to obtain descriptive stats that
+>    are more detailed than just "sum".
+>    Note how you can choose which statistic to show
+>    by specifying them within the "stats()" option.
+>    It is highly recommended that you use the option
+>    "column(statistics)" for better displaying format.  */
+. 
+.    tabstat *, stats(mean sd sk kurt p5 p25 p50 p75 p95) ///
+>               column(statistics)
+string variables not allowed in varlist;
+us_states is a string variable
+r(109);
+
+end of do-file
+
+r(109);
+
+. string
+command string is unrecognized
+r(199);
+
+. define us_states
+command define is unrecognized
+r(199);
+

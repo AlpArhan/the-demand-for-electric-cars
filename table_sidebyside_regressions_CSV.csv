@@ -1,0 +1,36 @@
+="Table 3.  Regression results for the Factors that Influence the Demand of Electric Cars"
+
+="                              ",="(1)",="(2)",="(3)"
+="                              ",="Electric Car Sales",="Electric Car Sales",="Electric Car Sales"
+
+="Average Electric Car Prices Across 13 Models After Tax-Exemption and Incentives",="-3.208**",="",="-3.215**"
+="                              ",="(1.422)",="",="(1.325)"
+
+="ecarprices2                   ",="0.0000301**",="",="0.0000302**"
+="                              ",="(0.0000138)",="",="(0.0000129)"
+
+="Price of Electricity Converted to Per Gasoline Gallon Equivalent",="4.425",="-147.0",=""
+="                              ",="(163.3)",="(132.2)",=""
+
+="Price of Gasoline per Gallon  ",="490.3",="-86.21",="278.8"
+="                              ",="(1313.2)",="(1482.8)",="(1073.5)"
+
+="The Number of Public Electric Fueling Stations",="7.740***",="9.290***",="7.772***"
+="                              ",="(0.497)",="(0.417)",="(0.488)"
+
+="Median Income(2014 Dollars)   ",="-0.0135",="0.0236",=""
+="                              ",="(0.0183)",="(0.0288)",=""
+
+="Constant                      ",="84990.5**",="-7.293",="84725.2**"
+="                              ",="(36907.6)",="(2798.8)",="(34369.2)"
+
+="Observations                  ",="50",="50",="50"
+="R-squared                     ",="0.911",="0.848",="0.910"
+="Adjusted R-squared            ",="0.898",="0.835",="0.902"
+="F                             ",="168.2",="375.0",="245.4"
+="rmse                          ",="1490.2",="1901.9",="1461.2"
+
+="Note 1:  Robust standard errors are displayed in parenthesis."
+="Note 2:  [Number of Observations are 50]"
+="Significance levels:  * p<0.10; ** p<0.05; *** p<0.01"
+="Source:  []"
